@@ -22,7 +22,7 @@ API_ID = int(environ.get("API_ID", "27102419"))
 API_HASH = environ.get("API_HASH", "acfe18a4b529e19f51cc488f694cd33b")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
-PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'https://imagekit.io/tools/asset-public-link?detail=%7B%22name%22%3A%22IMG_20250306_185642_979.jpg%22%2C%22type%22%3A%22image%2Fjpeg%22%2C%22signedurl_expire%22%3A%222028-03-05T13%3A28%3A48.325Z%22%2C%22signedUrl%22%3A%22https%3A%2F%2Fmedia-hosting.imagekit.io%2F%2Fe136721881c04419%2FIMG_20250306_185642_979.jpg%3FExpires%3D1835875728%26Key-Pair-Id%3DK2ZIVPTIP2VGHC%26Signature%3DYLccvUWxe9TGheyzlLb1l2wG53JHA3qslYps7fu~x-ox99T9v-cPfgsQwdHNzfcpt1W3uCULMgwXZmBGwmkvAp1htOUzMdXF1duWkLl7TRffINaFsEpsVY39ipZVHD~01qxOKayFTloIa4Co7yoBtUaf1SC-KbhTPMF~mVuYHjyLtD-B~2cEFInxdro1ZY~riFlH8DAokOuYbuzM2HU9gYOMfDetnFLXm-zSR-x8UA2Yej-OFBtbSnedSwc51675iYyVMMNMM7zGtaTNx1W6hGITMs10DQdVR2J~lbC2jMurS6JByD8DoxZn0XSOBsLq9j9Qr6wUtfbGTFWwgzPT5Q__%22%7D')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '8157903366').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "Suzeeebot") # without @
 PORT = environ.get("PORT", "8080")
